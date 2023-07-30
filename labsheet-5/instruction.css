@@ -1,0 +1,19 @@
+div{
+    background-color: aquamarine ;
+}h2{
+    color: blueviolet;
+    text-decoration: underline;
+    padding-left: 45%;
+}ol{
+    text-align: left;
+}ul{
+    padding-left: 15%;
+    color: blue;
+}a{
+    margin-left: 45%;
+}
+#first-big::first-letter{
+    font-size: xx-large;
+}#first-big::first-line{
+    color: rgb(150, 128, 95);
+}

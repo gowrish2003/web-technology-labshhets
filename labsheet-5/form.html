@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.ico" type="">
+    <title>
+        Registration form
+    </title>
+</head>
+
+<body>
+    <center>
+        <img src="logo.png" alt="logo">
+        <h1>Student Registration Form</h1>
+        <div id="inner-div">
+            <form name="myForm" action="">
+                <table>
+                    <tr>
+                        <td>First Name :</td>
+                        <td><input type="text" name="first" class="buttons">  (Max 50 characters allowed)</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Last Name :</td>
+                        <td><input type="text" name="Last" class="buttons">  (Max 50 characters allowed)</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Email Address :</td>
+                        <td><input type="email" class="buttons"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile :</td>
+                        <td><input class="buttons" name="number" type="number"> (Max 10 digits)</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Gender :</td>
+                        <td>Male <input type="radio" class="buttons" value="male">Female<input type="radio" class="buttons"
+                                value="female"></td>
+                    </tr>
+                    <tr>
+                        <td>DOB :</td>
+                        <td><input class="buttons" type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Address :</td>
+                        <td><textarea class="buttons" name="Address" cols="30" rows="3"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>City :</td>
+                        <td><input class="buttons" name="City" type="text">  (Max 50 characters allowed)</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Pin code :</td>
+                        <td><input class="buttons" name="pin" type="number">  (Max 6 digits)</td>
+                    </tr>
+                    <tr>
+                        <td>State :</td>
+                        <td><input class="buttons" name="state" type="text">  (Max 50 characters allowed)</td>
+                    </tr>
+                    <tr>
+                        <td>Country :</td>
+                        <td><input class="buttons" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Hobbies :</td>
+                        <td>
+                            <input type="checkbox" name="hobbies" class="buttons">Drawing
+                            <input type="checkbox" name="hobbies" class="buttons">Singing
+                            <input type="checkbox" name="hobbies" class="buttons">Dancing
+                            <input type="checkbox" name="hobbies" class="buttons">Sketching <br>
+                            <input type="checkbox" name="hobbies" class="buttons">others 
+                            <input type="text" name="others" class="buttons" placeholder="ex : Teaching">   
+                             (Max 50 characters allowed)
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Qualification :</td>
+                        <td>
+                            <input type="checkbox" class="buttons">High School (10th) <br>
+                            <input type="checkbox" class="buttons">Higher School (12th) <br>
+                            <input type="checkbox" class="buttons">Graduation (Bachelors) <br>
+                            <input type="checkbox" class="buttons">Post Graduation (Masters)<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Courses applied for :</td>
+                        <td>
+                            <select name="Courses" class="buttons">
+                                <option value="">BCA(Bachelors of computer application)</option>
+                                <option value="">B.Tech(Bachelors of Technology)</option>
+                                <option value="">BE(Bachelors of Engineering)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input class="buttons" type="submit">
+                         <input class="buttons" type="reset"></td>
+                        
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>
+        Instructions
+    </title>
+    <style>
+    div{
+    background-color: Lavender ;
+}h2{
+    color: blueviolet;
+    text-decoration: underline;
+    padding-left: 45%;
+}ol{
+    text-align: left;
+}ul{
+    padding-left: 15%;
+    color: blue;
+}a{
+    margin-left: 45%;
+}
+#first::first-letter {
+  font-size: 200%;
+  color: black;
+}
+</style>
+</head>
+
+<body>  
+    <div>
+    <h2> Instructions</h2>
+        <h4>
+            <ul>
+                <li id="first">The online application is for addmissions to programmes offered in Presidency University</li>
+                <li>Email ID submitted at the time of registration will be used for all correspondance until enrolment
+                    is closed</li>
+                <li>Change in email ID is not permitted under any circumstances.</li>
+                <br> <br>
+                <ol>
+                    <li id="first">Register and verify your email.</li>
+                </ol>
+            </ul>
+        </h4>
+        <a href="RegistrationForm.html" target="_blank"><button>Register</button></a>
+    <br>
+    <br>
+
+    </div>
+
+</body>
+
+</html>
